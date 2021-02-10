@@ -1,0 +1,7 @@
+{
+	"name": "integrationRuntimeonprem634g",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "IntegrationRuntime"
+	}
+}
