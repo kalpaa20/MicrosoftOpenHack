@@ -1,0 +1,22 @@
+{
+	"name": "ds_Tran2018_ADLS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkedSrvADataLake2_634g",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "folder2/FourthCoffee/Transactions_2018",
+				"fileSystem": "container1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

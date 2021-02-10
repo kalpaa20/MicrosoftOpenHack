@@ -1,0 +1,21 @@
+{
+	"name": "ds_Rentals_OnPremFourthCoffee",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "IntRuntimeLinkedServer_OnPrem_TestVM",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"folderPath": "Rentals"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
